@@ -35,3 +35,7 @@
 - Create a favicon from several images of different sizes:
 
 `magick convert {{path/to/image1.png path/to/image2.png ...}} {{path/to/favicon.ico}}`
+
+- Create a PDF from images in a folder:
+
+`magick convert {{path/to/images/*.png}} {{path/to/presentation.pdf}}`
